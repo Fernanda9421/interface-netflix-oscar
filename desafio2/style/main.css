@@ -1,0 +1,165 @@
+:root{
+    --dourado: #cfb53b;
+    --preto: #141414;
+    --vermelho: #e50914;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L;
+    color: white;
+    margin-bottom: 30px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    background: url('../img/oscar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 221px;
+    height: 83px;
+    margin: 10px 10px 10px -35px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 20px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/nomad2.jpg');
+
+    height: 400px;
+    background-size: 100% 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.titulo {
+    background: url('../img/logo-princ.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 221px;
+    height: 83px;
+    margin-top: 60px;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+a{
+    color: var(--dourado);
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+#filmes{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 0 5px 10px;
+    color: var(--dourado);
+    font-weight: lighter;
+}
+
+.box-filme {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.item {
+    transition: transform 0.3s ease-in-out;  
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.item:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 5px 5px rgba(0,0,0,0.6);
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
+
+#filmes-internacionais{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px 0 10px 10px;
+    color: var(--dourado);
+    font-weight: lighter;
+}
+
+#animacao {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 0 10px 10px;
+    color: var(--dourado);
+    font-weight: lighter;
+}
+
+#live-action {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px 0 10px 10px;
+    color: var(--dourado);
+    font-weight: lighter;
+}
+
+#documentario {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 0 10px 10px;
+    color: var(--dourado);
+    font-weight: lighter;
+}
+
+
+

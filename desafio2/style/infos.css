@@ -1,0 +1,131 @@
+:root{
+    --dourado: #cfb53b;
+    --preto: #141414;
+    --vermelho: #e50914;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L;
+    color: white;
+    margin-bottom: 30px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    background: url('../img/oscar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 221px;
+    height: 83px;
+    margin: 10px 10px 10px -35px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 20px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/nomad2.jpg');
+
+    height: 400px;
+    background-size: 100% 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo {
+    background: url('../img/logo-princ.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 221px;
+    height: 83px;
+    margin-top: 60px;
+}
+
+.container {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+#sinopse{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 0 5px 10px;
+    color: var(--dourado);
+    font-weight: lighter;
+}
+
+p{
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: #fff;
+    margin: 20px 10px 5px 10px;
+}
+
+#elenco {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 0 5px 10px;
+    color: var(--dourado);
+    font-weight: lighter;
+}
+
+img {
+    border-radius: 50%;
+    height: 100px;
+    justify-content:space-between;
+    align-items:center;
+    margin: 20px 0 5px 10px;
+    background-size: 100% 100%;
+}
+
+.fotos-elenco {
+    display: inline-flex;
+    padding: 20px 120px 20px 120px;
+}
+
+#producao {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 0 5px 10px;
+    color: var(--dourado);
+    font-weight: lighter; 
+}
+
+#lancamento {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 0 5px 10px;
+    color: var(--dourado);
+    font-weight: lighter;  
+}
+
+#recepcao {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 0 5px 10px;
+    color: var(--dourado);
+    font-weight: lighter; 
+}
